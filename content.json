@@ -1,21 +1,27 @@
 {
- "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "address": "15zr8fG5h9FZu6dt5CC9kQ1F7PMpiGu6Tm",
+ "address_index": 34359308,
  "background-color": "#F5F5F5",
+ "clone_root": "",
  "cloneable": true,
- "description": "Decentralized forum with ZeroID",
- "domain": "Talk.ZeroNetwork.bit",
+ "cloned_from": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "description": "\u0420\u0435\u0444\u0435\u0440\u043d\u0441\u043d\u044b\u0439 ZeroTalk \u0434\u043b\u044f \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u043e\u043a \u0438 \u043a\u043b\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0432 \u0441\u0432\u043e\u0438\u0445 \u043f\u0440\u043e\u0435\u043a\u0442\u0430\u0445",
  "files": {
   "css/all.css": {
-   "sha512": "413e69750ab6d51f3752edc3599fc8f3100f16ffd2d17e107b42f0a25f56c581",
-   "size": 165295
+   "sha512": "9f36bd58e5132afc01b175564c335d94234f9e109aba4b8709a8f792c730aa9f",
+   "size": 165446
+  },
+  "custom.css": {
+   "sha512": "2667140c89a9012fd95ae5bef3aab1321922ab1e6db91721b725a9c70cfeaf31",
+   "size": 55
   },
   "data-default/users/content-default.json": {
-   "sha512": "c1642cc2922a74c3e74991f0194e2acc46dc5e003207a0028dad63c75c41a0ec",
-   "size": 672
+   "sha512": "98e30a1a80ca254f097398d71c05e69a280bcc4a07ef24edbd2544a0df883a70",
+   "size": 676
   },
   "dbschema.json": {
-   "sha512": "7996d60b522185ed085f718fb4e2afdfa4c4358a9225190d7940d41fd701bd58",
-   "size": 3064
+   "sha512": "8e39a7ad3d85fc2c2bf3437a51ba625ea174ac8401e4bf8bc4469ec04f480ebf",
+   "size": 3112
   },
   "img/edit.png": {
    "sha512": "60ba4297e205b038bf7852ead2b88f9373cd8848408bb258dbcebb086d43f056",
@@ -34,12 +40,12 @@
    "size": 310
   },
   "index.html": {
-   "sha512": "8e205ea0a12826afe49e80592a4e94ac6c16bfaa5f6c7112085d9c249ad38e32",
-   "size": 8308
+   "sha512": "e14fb34aed6b545be93ead4f8858ecab19a60a21ea6e1c74e5208c01a02bdc28",
+   "size": 8577
   },
   "js/all.js": {
-   "sha512": "6b7290b235d928924433014fe91884bda5f652b7a5c1ed9b69d8579a9a991117",
-   "size": 231379
+   "sha512": "d5c46757cafd3eaf909394bf1361abbef3a48ff3437e2a618302f6c25b148049",
+   "size": 232914
   },
   "languages/da.json": {
    "sha512": "4947ef2bb4f4d9551561057ec7d6dea9e881d211ca7f9c0bec7f2dc7493fa2ec",
@@ -61,6 +67,14 @@
    "sha512": "eb9d7572cf4c76ed71f1c4c15a766128203b574008ae5bfe6a12caefdbc033a6",
    "size": 1623
   },
+  "languages/ru.json": {
+   "sha512": "8c4cc208c2b26fddb10aa0faaf76e0c98daa30b5d712006db500297cc22613aa",
+   "size": 1606
+  },
+  "languages/sk.json": {
+   "sha512": "275abee956d00626be779b1895db58949d3de0027d918b442679f6160fa9215c",
+   "size": 1246
+  },
   "languages/uk.json": {
    "sha512": "f4d991841471a155dcd48f492e5ec196f5a8630dd088ed3eaf0592e02da2c3b1",
    "size": 1606
@@ -74,7 +88,7 @@
    "size": 1863
   }
  },
- "ignore": "((js|css)/(?!all.(js|css))|data/users/.*db|data/users/.*/.*|data/archived|.*.py)",
+ "ignore": "((js|css)/(?!all.(js|css))|data/users/.*db|data/users/.*|data/archived/.*|.*.py|.git|.gitignore)",
  "includes": {
   "data/users/content.json": {
    "signers": [],
@@ -82,20 +96,29 @@
   }
  },
  "inner_path": "content.json",
- "modified": 1501722498,
+ "modified": 1524305638,
  "postmessage_nonce_security": true,
  "settings": {
-  "admin": "nofish",
-  "admin_href": "http://127.0.0.1:43110/Mail.ZeroNetwork.bit/?to=nofish",
-  "topic_sticky_uris": ["2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj", "8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj"]
+  "admin": "balancer73",
+  "admin_href": "http://127.0.0.1:43110/Mail.ZeroNetwork.bit/?to=balancer73",
+  "forum_banner": "Balancer<br/>Talk",
+  "navbar": [
+   ["Engish", "/Talk.ZeroNetwork.bit/"],
+   ["\u0420\u0443\u0441\u0441\u043a\u0438\u0439", "/1Apr5ba6u9Nz6eFASmFrefGvyBKkM76QgE/"],
+   ["Infonesy", "/1F4WVHDpQYxuJL6xEY3EZTYkZds9TTjVHC/"],
+   ["LOR", "/1BpFtPez7mSiShtXfb4wPfMT1dZTuRybfZ/"],
+   ["Airbase", "/1Jb5ZdmvTzVnHpa2hayjQk3H2kZgNVbmBb/"],
+   ["<b>Balancer</b>", "/15zr8fG5h9FZu6dt5CC9kQ1F7PMpiGu6Tm/"]
+  ],
+  "topic_sticky_uris": []
  },
- "signers_sign": "G2/6ljsXbej7laqD3JUGsa8IEgSGE+NZs2jg9reQ3vrlXLgsYX67t9yRcqOuRnKxuC+4+XPo/XdVztlERvr9viI=",
+ "signers_sign": "G/JTTxmYytniO2d5Xb4S7U/XZDvUdLMOJlYHh1t2NVVxZlNziPOuNJcHhzDM0rGpQ9NfsZGPHD5II0nu5rnkKxg=",
  "signs": {
-  "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT": "G6Jn9OYTOkDmWxV75E7jwamtoCLIrun9gkJViOOz03tHaDPrn51k86ewKYAVwnQ/mPqyiAO1lVNLHk22YUqVn8Q="
+  "15zr8fG5h9FZu6dt5CC9kQ1F7PMpiGu6Tm": "G+PJCyjeD4FG124p/UGB6ovlWCmOHUMUiFomIXGfhnH2AVElueofvbSw0/R6q7RAlNh7s+Lgkf3cHFAm5Zj5kiA="
  },
  "signs_required": 1,
- "title": "ZeroTalk",
+ "title": "Balancer.Talk",
  "translate": ["index.html", "js/all.js"],
  "viewport": "width=device-width, initial-scale=0.8",
- "zeronet_version": "0.5.7"
+ "zeronet_version": "0.6.2"
 }

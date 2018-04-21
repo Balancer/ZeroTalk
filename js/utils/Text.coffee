@@ -1,6 +1,15 @@
 class Renderer extends marked.Renderer
 	image: (href, title, text) ->
-		return ("<code>![#{text}](#{href})</code>")
+		if href.endsWith('.mp4')
+			return "
+<video controls>
+	<source src=\"#{href}\" type=\"video/mp4\">
+	Your browser does not support the video tag.
+</video>"
+
+		return "<img src=\"" + href + "\"/>"
+
+#		return ("<code>![#{text}](#{href})</code>")
 
 class Text
 	toColor: (text) ->
@@ -21,6 +30,8 @@ class Text
 		options["breaks"] = true
 		options["renderer"] = renderer
 		text = @fixReply(text)
+		text = text.replace(/^(\s*- )\[ \]/m, "$1☐")
+		text = text.replace(/^(\s*- )\[x\]/m, "$1☑")
 		text = marked(text, options)
 		return @fixHtmlLinks text
 
