@@ -1,0 +1,42 @@
+{
+	"Follow in Newsfeed": "Следить в ленте новостей",
+	"Following": "Слежу за темой",
+	"Comments in this topic": "Комментарии в этой теме",
+	"New topics": "Новые темы",
+	"New topics in this group": "Новые темы в группе",
+	"Username mentions": "Вас упоминают",
+	"All comments": "Все комментарии",
+
+	"Main": "Главная страница",
+	"Loading...": "Загрузка...",
+	" + Start new topic": " + Новая тема",
+	"new topic": "Новая тема",
+	"Topic title": "Заголовок темы",
+	"Topic description": "Описание темы",
+	"Add new topic": "Добавить тему",
+
+	"Newest topics": "Новые темы",
+	"More topics": "Ещё темы",
+	"More comments": "Ещё комментарии",
+	"Sign in as...": "Залогиниться как...",
+	"Submit comment": "Отправить комментарий",
+	"Please sign in": "Пожалуйста, авторизуйтесь",
+	"new comment": "новый комментарий",
+
+	"Reply": "Ответить",
+
+	"stickied": "закреплено",
+	" posted ": " отправлено ",
+	"last ": "обновлено ",
+	" comment": " комментарий",
+	" comments": " коммент.",
+	"0 comments": "0 комментариев",
+	"last activity": "текущая активность",
+	"&#9473; started by ": "&#9473; автор: ",
+
+	" minutes ago": " мин. назад",
+	" hours ago": " час. назад",
+	" days ago": " дн. назад",
+	"on ": "",
+	"Just now": "Сейчас"
+}
