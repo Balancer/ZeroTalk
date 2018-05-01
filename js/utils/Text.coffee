@@ -30,8 +30,8 @@ class Text
 		options["breaks"] = true
 		options["renderer"] = renderer
 		text = @fixReply(text)
-		text = text.replace(/^(\s*- )\[ \]/m, "$1☐")
-		text = text.replace(/^(\s*- )\[x\]/m, "$1☑")
+		text = text.replace(/^(\s*- )\[ \]/mg, "$1☐")
+		text = text.replace(/^(\s*- )\[x\]/mg, "$1☑")
 		text = marked(text, options)
 		return @fixHtmlLinks text
 

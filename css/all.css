@@ -1,6 +1,6 @@
 
 
-/* ---- /1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT/css/Follow.css ---- */
+/* ---- /15zr8fG5h9FZu6dt5CC9kQ1F7PMpiGu6Tm/css/Follow.css ---- */
 
 
 .icon-feed {
@@ -38,7 +38,7 @@
 .feed-follow-show:hover { border: 1px solid white }
 
 
-/* ---- /1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT/css/InlineEditor.css ---- */
+/* ---- /15zr8fG5h9FZu6dt5CC9kQ1F7PMpiGu6Tm/css/InlineEditor.css ---- */
 
 
 /* Editable */
@@ -85,7 +85,7 @@
 }
 
 
-/* ---- /1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT/css/Menu.css ---- */
+/* ---- /15zr8fG5h9FZu6dt5CC9kQ1F7PMpiGu6Tm/css/Menu.css ---- */
 
 
 .menu {
@@ -109,7 +109,7 @@
 }
 
 
-/* ---- /1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT/css/ZeroTalk.css ---- */
+/* ---- /15zr8fG5h9FZu6dt5CC9kQ1F7PMpiGu6Tm/css/ZeroTalk.css ---- */
 
 
 body { background-color: #F5F5F5; color: #333332; margin: 10px; padding: 0px; font-family: 'Roboto', sans-serif; height: 15000px; overflow: hidden; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -o-backface-visibility: hidden; -ms-backface-visibility: hidden; backface-visibility: hidden ; }
@@ -387,7 +387,7 @@ input.text:focus, textarea:focus { border-color: #5FC0EA; outline: none; backgro
 
 
 
-/* ---- /1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT/css/fonts.css ---- */
+/* ---- /15zr8fG5h9FZu6dt5CC9kQ1F7PMpiGu6Tm/css/fonts.css ---- */
 
 
 /* Base64 encoder: http://www.motobit.com/util/base64-decoder-encoder.asp */
@@ -432,7 +432,7 @@ input.text:focus, textarea:focus { border-color: #5FC0EA; outline: none; backgro
 
 
 
-/* ---- /1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT/css/icons.css ---- */
+/* ---- /15zr8fG5h9FZu6dt5CC9kQ1F7PMpiGu6Tm/css/icons.css ---- */
 
 
 .icon { display: inline-block; vertical-align: text-bottom; background-repeat: no-repeat; }
@@ -471,4 +471,20 @@ input.text:focus, textarea:focus { border-color: #5FC0EA; outline: none; backgro
 .icon-mute {
 	width: 17px; height: 14px; background-repeat: no-repeat; padding-right: 5px; vertical-align: -2px; opacity: 0.2;
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAOCAMAAAD+MweGAAAARVBMVEUAAAABAAIAAAACAAIAAAIAAAABAAECAAICAAIAAAAAAAABAAIBAAIBAAIBAAIBAAMBAAMBAAEAAAIAAAAAAAAAAAABAAJgeLYdAAAAFnRSTlMA7jGWeQe9pY02IvTk2tLMxbhsORoUV1Pd4wAAAFBJREFUCNd1z+kKgDAMA+B0cx7zvvL+j6pDQcJcoH8+2kJQSmhqhXMhBeJIld34SAW4e1aSr5jvrAX4iTN6/MmUXYW49fo5bQ9JJMesoi3yXMOvBYnUTBisAAAAAElFTkSuQmCC')
+}
+
+
+/* ---- /15zr8fG5h9FZu6dt5CC9kQ1F7PMpiGu6Tm/css/zzz-Balancer.css ---- */
+
+
+img {
+	max-width: 100%;
+}
+
+video {
+	max-width: 100%;
+}
+
+.editbg {
+	background-color: #ddd;
 }
